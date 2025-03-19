@@ -33,7 +33,7 @@ let exchangeRate = 9000;
 function convertToUSD() {
   let syr = document.querySelector(".SYR").value;
 
-  document.querySelector(".dollar").value = syr / exchangeRate;
+  document.querySelector(".dollar").value = (syr / exchangeRate).toFixed(2);
 }
 
 function convertToSYR() {
