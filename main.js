@@ -28,7 +28,7 @@
 
 // seeResult();
 
-let exchangeRate = 10000;
+let exchangeRate = 9000;
 
 function convertToUSD() {
   let syr = document.querySelector(".SYR").value;
