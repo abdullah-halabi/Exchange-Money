@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>ABOUT US</li>
+        <li>Pricing</li>
+        <li>Log In</li>
+        <li>Help</li>
+      </ul>
+    </header>
+    <div class="container">
+      <form action="">
+        <h4>Rate guaranteed (24h)</h4>
+        <p class="fir">9,000 SYR = 1 USD</p>
+        <label for="">You Send Exactly</label><br />
+        <div class="box">
+          <input
+            class="SYR"
+            type="number"
+            name="dollar"
+            placeholder="SYR Pound"
+            oninput="convertToUSD()"
+          />
+          <img src="./Flag-Syria.webp" alt="" />
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <p class="sec">
+          Sending over 20,000 GBP or equivalent?
+          <a href="#">We'll discount our fee</a>
+        </p>
+        <div class="box">
+          <input
+            class="dollar"
+            type="number"
+            name="dollar"
+            placeholder="USA Dollar"
+            oninput="convertToSYR()"
+          />
+          <img src="./flag-Stars-and-Stripes-May-1-1795.webp" alt="" />
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
