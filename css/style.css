@@ -41,6 +41,13 @@ header ul li {
   cursor: pointer;
   transition: all 1s;
 }
+@media (max-width: 768px) {
+  header ul li {
+    padding: 8px 10px;
+    font-size: 11px;
+    margin: 10px;
+  }
+}
 header ul li:hover {
   background-color: rgb(87, 85, 85);
 }
@@ -61,6 +68,13 @@ form {
   padding: 30px 40px;
   z-index: 1;
   margin-right: 20px;
+  transition: all 2s;
+}
+@media (max-width: 768px) {
+  form {
+    width: 355px;
+    margin-right: 0px;
+  }
 }
 form h4 {
   color: #5197a0;
@@ -117,7 +131,7 @@ form .sec {
   background-color: #79a9af;
   border-radius: 10px;
   width: fit-content;
-  height: 35px;
+  height: 50px;
   font-size: 14px;
   padding: 10px;
   color: #0b393f;
