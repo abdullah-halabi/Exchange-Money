@@ -5,7 +5,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 body {
-  background-image: url(four.jpg);
+  background-image: url(../four.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
